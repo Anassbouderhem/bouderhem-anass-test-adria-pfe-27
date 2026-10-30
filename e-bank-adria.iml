@@ -10,5 +10,17 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:4.1.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:4.1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:5.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:7.0.10" level="project" />
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:7.0.10" level="project" />
   </component>
 </module>
