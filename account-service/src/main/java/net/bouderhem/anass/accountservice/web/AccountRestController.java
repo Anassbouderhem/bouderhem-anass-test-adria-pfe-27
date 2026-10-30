@@ -3,6 +3,7 @@ package net.bouderhem.anass.accountservice.web;
 import lombok.RequiredArgsConstructor;
 import net.bouderhem.anass.accountservice.domain.BankAccount;
 import net.bouderhem.anass.accountservice.service.AccountService;
+import org.springframework.ai.mcp.annotation.McpTool;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
