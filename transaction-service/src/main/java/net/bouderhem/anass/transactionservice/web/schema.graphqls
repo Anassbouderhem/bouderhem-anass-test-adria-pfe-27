@@ -1,0 +1,25 @@
+type Query {
+    accountTransactions(accountId: String): [BankTransaction]
+}
+
+type Mutation {
+    addTransaction(transaction: BankTransactionInput): BankTransaction
+}
+
+type BankTransaction {
+    id: String
+    accountId: String
+    amount: Float
+    currency: String
+    merchantCategory: String
+    country: String
+    createdAt: String
+}
+
+input BankTransactionInput {
+    accountId: String
+    amount: Float
+    currency: String
+    merchantCategory: String
+    country: String
+}
